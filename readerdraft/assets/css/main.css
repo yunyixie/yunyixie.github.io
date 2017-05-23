@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 350px;
+  margin-right: 350px;
+   font-family: garamond;
+   font-size:15px;
+}
+
+.body p{
+  font-family: arial;
+        color: grey;
+        margin-left: 100px;
+}
+
+.body h3{
+  font-family: arial;
+        color: grey;
+}
+
+.body h4{
+  font-family: arial;
+        color: grey;
+}
+
+.number{
+  background-color: cyan;
+  font-size: 15px;
+  color: white;
+}
+
+.number:hover{
+  background: magenta;
+}
+
+.footnote{
+  position:fixed;
+  bottom:10px;
+  display:none;
+}
+
+.footnote.showme{
+  display:block;
+}
+
+.thumbnail{
+  width:50px;
+  transition:2s;
+}
+
+.thumbnail.enlarge{
+  width:100px;
+  transition:2s;
+}
