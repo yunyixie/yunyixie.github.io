@@ -2,10 +2,17 @@
   box-sizing: border-box;
 }
 
-body {
+body.easy{
    background-color: white;
 }
 
+body.hard{
+  background-color:  #0000FF
+}
+
+body.hell{
+
+}
 
 #page-wrap {
   width: 70%;
@@ -32,7 +39,7 @@ body {
 
 
 hr.style1{
-	border-top:1px dashed #8c8b8b;
+	border-top: 1px dashed #8c8b8b;
 }
 
 
@@ -43,8 +50,8 @@ hr.style1{
  font-family: garamond bold;
  font-size: 25px;
   position:fixed;
-  top:60px;
-  left:38px;
+  top:100px;
+  left:0px;
   transform:rotate(270deg);
   color: black;
 }
@@ -63,36 +70,20 @@ hr.style1{
 .navi__p{
  padding:20px;
  font-family: garamond bold;
- font-size: 25px;
+ font-size: 80px;
   position:fixed;
-  bottom:20px;
-  left:70px;
+  bottom:0px;
+  left:0px;
   color: black;
-}
-
-.navi__pt{
-  font-family: arial;
-  font-size: 25px;
-  position:fixed;
-  bottom:43px;
-  left:170px;
-}
-
-.navi__nt{
-  font-family: arial;
-  font-size: 25px;
-  position:fixed;
-  bottom:43px;
-  right:170px;
 }
 
 .navi__n{
  padding:20px;
  font-family: garamond bold;
- font-size: 25px;
+ font-size: 80px;
   position:fixed;
-  bottom:20px;
-  right:70px;
+  bottom:0px;
+  right:0px;
   color: black;
 }
 
@@ -117,18 +108,7 @@ a.home:hover{
   text-decoration: none;
 }
 
-a.quotes{
-  font-family: arial;
-  color:black;
-  text-decoration: underline dashed #8c8b8b;
-}
-
-a.quotes:hover{
-  color:cyan;
-  text-decoration: underline dashed cyan;
-}
 /*effects*/
-
 
 
 img:hover{
@@ -171,14 +151,6 @@ img:hover{
    text-align: right;
    padding: 10px;
    align-self: flex-start;
-}
-
-
-.col__3of2{
-   flex:1;
-   text-align: right;
-   padding: 10px;
-   align-self: flex-end;
 }
 
 .col1{
