@@ -88,39 +88,50 @@ hr.style1{
 }
 
 .pt{
+  background-color: white;
   font-family: arial;
   font-size: 25px;
   position:fixed;
-  bottom:43px;
+  bottom:50px;
   left:170px;
+  visibility: hidden;
+}
+
+.nt{
+  background-color: white;
+  font-family: garamond bold;
+  font-style: italic;
+  font-size: 50px;
+  text-align: right;
+  position:fixed;
+  bottom:40px;
+  right:170px;
   visibility: hidden;
 }
 
 .pt.showme{
-  font-family: arial;
-  font-size: 25px;
+  background-color: white;
+  padding: 10px;
+  font-family: garamond bold;
+  font-style: italic;
+  font-size: 50px;
   position:fixed;
-  bottom:43px;
-  left:170px;
+  bottom:40px;
   visibility: visible;
-}
-
-.nt{
-  font-family: arial;
-  font-size: 25px;
-  position:fixed;
-  bottom:43px;
-  right:170px;
-  visibility: hidden;
+  transition: 1s;
 }
 
 .nt.showme{
-  font-family: arial;
-  font-size: 25px;
+  background-color: white;
+  font-family: garamond bold;
+  font-style: italic;
+  font-size: 50px;
+  text-align: right;
   position:fixed;
-  bottom:43px;
-  right:170px;
+  bottom:40px;
+  right:250px;
   visibility: visible;
+  transition: 1s;
 }
 
 
