@@ -5,19 +5,19 @@ $(document).ready(function() {
 
 
   $('.navi__p').mouseenter(function() {
-    $('.navi__pt').addClass('showme');
+    $('.pt').addClass('showme');
   });
 
   $('.navi__p').mouseleave(function() {
-      $('.navi__pt').removeClass('showme');
+      $('.pt').removeClass('showme');
     });
 
     $('.navi__n').mouseenter(function() {
-      $('.navi__nt').addClass('showme');
+      $('.nt').addClass('showme');
     });
 
   $('.navi__n').mouseleave(function() {
-      $('.navi__nt').removeClass('showme');
+      $('.nt').removeClass('showme');
     });
 
 

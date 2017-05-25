@@ -31,6 +31,18 @@ body {
   width:100%
 }
 
+.quotes{
+  margin: auto;
+  color: black;
+  font-size: 30px;
+  font-family: times;
+  font-style: italic;
+  text-decoration: underline 1px;
+  width: 430px;
+  text-align: left;
+
+}
+
 
 hr.style1{
 	border-top:1px dashed #8c8b8b;
@@ -71,21 +83,42 @@ hr.style1{
   color: black;
 }
 
-.navi__pt{
+.pt{
   font-family: arial;
   font-size: 25px;
   position:fixed;
   bottom:43px;
   left:170px;
+  visibility: hidden;
 }
 
-.navi__nt{
+.pt.showme{
+  font-family: arial;
+  font-size: 25px;
+  position:fixed;
+  bottom:43px;
+  left:170px;
+  visibility: visible;
+}
+
+.nt{
   font-family: arial;
   font-size: 25px;
   position:fixed;
   bottom:43px;
   right:170px;
+  visibility: hidden;
 }
+
+.nt.showme{
+  font-family: arial;
+  font-size: 25px;
+  position:fixed;
+  bottom:43px;
+  right:170px;
+  visibility: visible;
+}
+
 
 .navi__n{
  padding:20px;
@@ -96,6 +129,8 @@ hr.style1{
   right:70px;
   color: black;
 }
+
+/*hovers*/
 
 a {
   color: black;
@@ -118,16 +153,18 @@ a.home:hover{
   text-decoration: none;
 }
 
-a.quotes{
+a.links{
   font-family: arial;
   color:black;
   text-decoration: underline dashed #8c8b8b;
 }
 
-a.quotes:hover{
+a.links:hover{
   color:cyan;
   text-decoration: underline dashed cyan;
 }
+
+
 /*effects*/
 
 
@@ -164,8 +201,6 @@ img:hover{
    align-self: flex-start;
 
 }
-
-
 
 .col__2of2{
    flex:1;
