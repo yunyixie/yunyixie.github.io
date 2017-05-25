@@ -43,6 +43,10 @@ body {
 
 }
 
+::selection {
+  background: cyan; /* WebKit/Blink Browsers */
+}
+
 
 hr.style1{
 	border-top:1px dashed #8c8b8b;
@@ -156,12 +160,12 @@ a.home:hover{
 a.links{
   font-family: arial;
   color:black;
-  text-decoration: underline dashed #8c8b8b;
+  text-decoration: underline dashed 1px #8c8b8b;
 }
 
 a.links:hover{
   color:cyan;
-  text-decoration: underline dashed cyan;
+  text-decoration: underline dashed 1px cyan;
 }
 
 
