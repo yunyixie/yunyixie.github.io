@@ -88,7 +88,7 @@ hr.style1{
 }
 
 .pt{
-  background-color: white;
+  color: cyan;
   font-family: arial;
   font-size: 25px;
   position:fixed;
@@ -110,11 +110,11 @@ hr.style1{
 }
 
 .pt.showme{
-  background-color: white;
+  color:cyan;
   padding: 10px;
-  font-family: garamond bold;
+  font-family: arial bold;
   font-style: italic;
-  font-size: 50px;
+  font-size: 150px;
   position:fixed;
   bottom:40px;
   visibility: visible;
