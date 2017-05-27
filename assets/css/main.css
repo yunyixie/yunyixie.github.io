@@ -88,50 +88,49 @@ hr.style1{
 }
 
 .pt{
-  color: cyan;
+  color: white;
   font-family: arial;
   font-size: 25px;
+  text-align: left;
   position:fixed;
   bottom:50px;
-  left:170px;
+  left:150px;
   visibility: hidden;
 }
 
 .nt{
-  background-color: white;
-  font-family: garamond bold;
-  font-style: italic;
-  font-size: 50px;
+  color: white;
+  font-family: arial;
+  font-size: 25px;
   text-align: right;
   position:fixed;
   bottom:40px;
-  right:170px;
+  right:150px;
   visibility: hidden;
 }
 
 .pt.showme{
-  color:cyan;
+  color:black;
   padding: 10px;
-  font-family: arial bold;
-  font-style: italic;
-  font-size: 150px;
+  font-family: arial;
+  font-size: 70px;
+  text-align: left;
   position:fixed;
   bottom:40px;
   visibility: visible;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .nt.showme{
-  background-color: white;
-  font-family: garamond bold;
-  font-style: italic;
-  font-size: 50px;
+  color: black;
+  font-family: arial;
+  font-size: 70px;
   text-align: right;
   position:fixed;
   bottom:40px;
-  right:250px;
+  right:150px;
   visibility: visible;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 
@@ -170,13 +169,15 @@ a.home:hover{
 
 a.links{
   font-family: arial;
-  color:black;
-  text-decoration: underline dashed 1px #8c8b8b;
+  color:#8c8b8b;
+  text-decoration: none;
+  border-bottom: 1px solid #8c8b8b;
 }
 
 a.links:hover{
   color:cyan;
-  text-decoration: underline dashed 1px cyan;
+  text-decoration: none;
+  border-bottom: 1px solid cyan;
 }
 
 
