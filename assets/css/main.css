@@ -52,6 +52,22 @@ hr.style1{
 	border-top:1px dashed #8c8b8b;
 }
 
+/*game modes*/
+
+.content.normal{
+
+
+}
+
+.content.hard{
+  font-family: cursive;
+  font-size: 25px;
+  color: red;
+}
+
+.content.hell{
+
+}
 
 /*navi*/
 
@@ -171,7 +187,7 @@ a.links{
   font-family: arial;
   color:#8c8b8b;
   text-decoration: none;
-  border-bottom: 1px solid #8c8b8b;
+  border-bottom: 1px dashed #8c8b8b;
 }
 
 a.links:hover{

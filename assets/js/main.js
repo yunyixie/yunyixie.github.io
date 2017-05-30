@@ -20,6 +20,15 @@ $(document).ready(function() {
       $('.nt').removeClass('showme');
     });
 
+    /*game modes*/
+
+    $('.switch1').click(function() {
+      $('.content').addClass('normal');
+    });
+
+
+
+
 
 
 
