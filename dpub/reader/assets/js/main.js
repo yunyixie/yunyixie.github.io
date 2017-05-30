@@ -1,25 +1,18 @@
 $(document).ready(function() {
 
 
-  /* navi title */
 
-
-  $('.navi__p').mouseenter(function() {
-    $('.navi__pt').addClass('showme');
+  $('.number').mouseenter(function() {
+    $('.footnote').addClass('showme');
   });
 
-  $('.navi__p').mouseleave(function() {
-      $('.navi__pt').removeClass('showme');
+  $('.number').mouseleave(function() {
+      $('.footnote').removeClass('showme');
     });
 
-    $('.navi__n').mouseenter(function() {
-      $('.navi__nt').addClass('showme');
-    });
-
-  $('.navi__n').mouseleave(function() {
-      $('.navi__nt').removeClass('showme');
-    });
-
+  $('.thumbnail').click(function() {
+    $(this).toggleClass('enlarge');
+  });
 
 
 
